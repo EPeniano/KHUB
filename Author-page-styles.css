@@ -1,0 +1,43 @@
+ body{
+     background-color: rgb(227,238,245);
+ }
+ #Earth{
+    background-color: white;
+    width: 800px;
+    height: 150px;
+    border-radius: 2px;
+    position: relative;
+    left: 220px;
+    
+ }
+ #Kim{
+    background-color: white;
+    width: 800px;
+    height: 150px;
+    border-radius: 2px;
+    position: relative;
+    left: 220px;
+}
+#Carl{
+    background-color: white;
+    width: 800px;
+    height: 150px;
+    border-radius: 2px;
+    position: relative;
+    left: 220px;
+}
+#Dyre{
+    background-color: white;
+    width: 800px;
+    height: 150px;
+    border-radius: 2px;
+    position: relative;
+    left: 220px;
+}#Keith{
+    background-color: white;
+    width: 800px;
+    height: 150px;
+    border-radius: 2px;
+    position: relative;
+    left: 220px;
+}

@@ -1,0 +1,44 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family:sans-serif;
+}
+
+.login-form h1{
+	text-align:center;
+	font-size:30px;
+	margin:10px;
+}
+
+.login-form{
+	background:#0079d1;
+	color:#fff;
+	padding:20px;
+	width:300px;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	position:absolute;
+	border-radius:10px;
+}
+
+.login-form p{
+	font-size:10px;
+}
+
+.login-form input{
+	padding:10px 15px;
+	width:90%
+}
+
+.login-form button{
+	margin:10px;
+	padding:10px 15px;
+	width:90%
+}
+
+.login-form a{
+	
+	color:#fff;
+}
+body{background-image: url("");

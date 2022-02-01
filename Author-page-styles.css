@@ -1,6 +1,8 @@
  body{
      background-color: rgb(227,238,245);
  }
+ .dropdown-item{color:white;}
+li{color:white;}
  #Earth{
     background-color: white;
     width: 800px;

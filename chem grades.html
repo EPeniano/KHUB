@@ -8,6 +8,9 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
     </head>
 
     <style>
@@ -28,15 +31,30 @@
    }
    .dropdown-item{color:white;}
       li{colro:white;}
+      .title{font-size:35px;}
+      .mr-3{width:100px;}
+      @media only screen and (min-width: 768px) {
+                      .mr-3{width:150px;}
+                    .title{font-size:50px;}
+                      }
+      @media only screen and (min-width: 1440px) {
+        .mr-3{width:300px;}
+        .title{font-size:100px;}
+      } 
+       a {
+               text-decoration:none;
+               color:black;
+              }
      </style>
 
     <nav>
                 <body>
-                    <div class="jumbotron text-center"style="font-size:40px;margin-bottom:5px;">
-                        <div class="container">
-                          <h class="title">PSHS CLC KHUB</h>
-                        </div>
-                      </div>
+                   <div class="jumbotron text-center" style="background-color: white;">
+              <img src="https://www.w3schools.com/howto/img_avatar.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" >
+              <div class="media-body">
+                <h class="title"style=" margin-bottom:5px;font-family: 'Ubuntu', sans-serif;text-align:center;">JM IBANEZ'S KHUB</h>
+              </div>
+              </div>
             
                       <nav class="navbar navbar-expand-md bg-dark navbar-dark"> 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -326,13 +344,14 @@
                                                             <th style="background-color: white; height: 0.5px;"></th>
                                                             </tr>
                 </table>
-                <div class="jumbotron text-left"style="font-size:30px;margin-bottom:0px;">
-                    <div class="container">
-                      <h class="title">STAY IN TOUCH<BR>PSHS KNOWLEDGE HUB-CLC</h>
-                        <p class="footer"><a href="https://clc.pshs.edu.ph">https://clc.pshs.edu.ph</a><br>
-                          Tel. No : (045) 499 0136<br>
-                          khub@clc.pshs.edu.ph
-                        </p>
-                    </div>
+                 <div class="jumbotron text-left">
+            <div class="container" style="background-color: #E9ECEF;">
+              <h class="title"style="font-size:30px;">STAY IN TOUCH<BR>PSHS KNOWLEDGE HUB-CLC</h>
+                <p class="footer"style="font-size:30px;"><a href="https://clc.pshs.edu.ph">https://clc.pshs.edu.ph</a><br>
+                  Tel. No : (045) 499 0136<br>
+                  khub@clc.pshs.edu.ph
+                </p>
+            </div>
+          </div>
                   </head>
                 </html>
